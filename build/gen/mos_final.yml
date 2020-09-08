@@ -1,4 +1,4 @@
-name: Adafruit_MCP4725
+name: MCP4725
 type: lib
 version: "1.0"
 platform: esp32
@@ -8,36 +8,36 @@ platforms:
 author: Cristian Valdivia
 description: MCP4725 library
 sources:
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/src/mgos_MCP4725_c.c
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/src/MCP4725.cpp
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/src/mgos_MCP4725.cpp
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/src/mgos_MCP4725_c.c
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/src/MCP4725.cpp
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/src/mgos_MCP4725.cpp
 includes:
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/freertos/include
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/freertos/include/esp32
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/i2c/include
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/atca/include
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/atca/cryptoauthlib/lib
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/atca/cryptoauthlib/lib/crypto
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/atca/cryptoauthlib/lib/hal
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/mbedtls/include
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/mbedtls/include/esp32
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/mbedtls/mbedtls/include
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/vfs-common/include
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/vfs-common/include/esp32
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/mongoose/include
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/vfs-fs-lfs/include
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/vfs-fs-lfs/littlefs
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/vfs-fs-lfs/littlefs1
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/vfs-fs-spiffs/include
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/vfs-fs-spiffs/include/spiffs
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/vfs-fs-spiffs/include/esp32
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/core/include
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/core/include/esp32
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/arduino-compat/include
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/arduino-compat/include/sys
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/spi/include
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/arduino-spi/include
-- /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/arduino-wire/include
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/freertos/include
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/freertos/include/esp32
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/i2c/include
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/atca/include
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/atca/cryptoauthlib/lib
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/atca/cryptoauthlib/lib/crypto
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/atca/cryptoauthlib/lib/hal
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/mbedtls/include
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/mbedtls/include/esp32
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/mbedtls/mbedtls/include
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/vfs-common/include
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/vfs-common/include/esp32
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/mongoose/include
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/vfs-fs-lfs/include
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/vfs-fs-lfs/littlefs
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/vfs-fs-lfs/littlefs1
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/vfs-fs-spiffs/include
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/vfs-fs-spiffs/include/spiffs
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/vfs-fs-spiffs/include/esp32
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/core/include
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/core/include/esp32
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/arduino-compat/include
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/arduino-compat/include/sys
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/spi/include
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/arduino-spi/include
+- /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/arduino-wire/include
 config_schema:
 - - i2c
   - o
@@ -280,91 +280,91 @@ libs_handled:
     origin: https://github.com/mongoose-os-libs/freertos
     location: https://github.com/mongoose-os-libs/freertos
     name: freertos
-  path: /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/freertos
+  path: /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/freertos
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/freertos/src
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/freertos/src/esp32
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/freertos/src
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/freertos/src/esp32
   version: 10.2.0
 - lib:
     origin: https://github.com/mongoose-os-libs/i2c
     location: https://github.com/mongoose-os-libs/i2c
     name: i2c
-  path: /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/i2c
+  path: /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/i2c
   init_deps:
   - core
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/i2c/src
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/i2c/src/esp32
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/i2c/src
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/i2c/src/esp32
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/atca
     location: https://github.com/mongoose-os-libs/atca
     name: atca
-  path: /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/atca
+  path: /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/atca
   init_deps:
   - i2c
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/atca/src
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/atca/cryptoauthlib/lib
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/atca/cryptoauthlib/lib/basic
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/atca/cryptoauthlib/lib/host
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/atca/cryptoauthlib/lib/mbedtls/atca_mbedtls_wrap.c
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/atca/src
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/atca/cryptoauthlib/lib
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/atca/cryptoauthlib/lib/basic
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/atca/cryptoauthlib/lib/host
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/atca/cryptoauthlib/lib/mbedtls/atca_mbedtls_wrap.c
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/mbedtls
     location: https://github.com/mongoose-os-libs/mbedtls
     name: mbedtls
-  path: /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/mbedtls
+  path: /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/mbedtls
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/mbedtls/src
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/mbedtls/src/esp32
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/mbedtls/mbedtls/library
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/mbedtls/src
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/mbedtls/src/esp32
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/mbedtls/mbedtls/library
   version: 2.16.6-cesanta1
 - lib:
     origin: https://github.com/mongoose-os-libs/vfs-common
     location: https://github.com/mongoose-os-libs/vfs-common
     name: vfs-common
-  path: /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/vfs-common
+  path: /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/vfs-common
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/vfs-common/src
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/vfs-common/src/esp32
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/vfs-common/src
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/vfs-common/src/esp32
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/mongoose
     location: https://github.com/mongoose-os-libs/mongoose
     name: mongoose
-  path: /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/mongoose
+  path: /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/mongoose
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/mongoose/src
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/mongoose/src
   version: "6.16"
 - lib:
     origin: https://github.com/mongoose-os-libs/vfs-fs-lfs
     location: https://github.com/mongoose-os-libs/vfs-fs-lfs
     name: vfs-fs-lfs
-  path: /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/vfs-fs-lfs
+  path: /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/vfs-fs-lfs
   init_deps:
   - vfs-common
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/vfs-fs-lfs/src
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/vfs-fs-lfs/littlefs
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/vfs-fs-lfs/littlefs1
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/vfs-fs-lfs/src
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/vfs-fs-lfs/littlefs
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/vfs-fs-lfs/littlefs1
   version: 2.2.0
 - lib:
     origin: https://github.com/mongoose-os-libs/vfs-fs-spiffs
     location: https://github.com/mongoose-os-libs/vfs-fs-spiffs
     name: vfs-fs-spiffs
-  path: /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/vfs-fs-spiffs
+  path: /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/vfs-fs-spiffs
   init_deps:
   - vfs-common
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/vfs-fs-spiffs/src
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/vfs-fs-spiffs/src/spiffs
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/vfs-fs-spiffs/src
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/vfs-fs-spiffs/src/spiffs
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/core
     location: https://github.com/mongoose-os-libs/core
     name: core
-  path: /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/core
+  path: /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/core
   init_deps:
   - freertos
   - mongoose
@@ -372,53 +372,53 @@ libs_handled:
   - vfs-fs-lfs
   - vfs-fs-spiffs
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/core/src
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/core/src/esp32
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/core/src
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/core/src/esp32
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/arduino-compat
     location: https://github.com/mongoose-os-libs/arduino-compat
     name: arduino-compat
-  path: /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/arduino-compat
+  path: /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/arduino-compat
   init_deps:
   - core
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/arduino-compat/src
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/arduino-compat/src
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/spi
     location: https://github.com/mongoose-os-libs/spi
     name: spi
-  path: /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/spi
+  path: /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/spi
   init_deps:
   - core
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/spi/src
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/spi/src/esp32
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/spi/src
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/spi/src/esp32
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/arduino-spi
     location: https://github.com/mongoose-os-libs/arduino-spi
     name: arduino-spi
-  path: /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/arduino-spi
+  path: /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/arduino-spi
   init_deps:
   - arduino-compat
   - core
   - spi
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/arduino-spi/src
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/arduino-spi/src
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/arduino-wire
     location: https://github.com/mongoose-os-libs/arduino-wire
     name: arduino-wire
-  path: /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/arduino-wire
+  path: /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/arduino-wire
   init_deps:
   - arduino-compat
   - core
   - i2c
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/Adafruit_MCP4725/esp32/build_contexts/build_ctx_606505461/deps/arduino-wire/src
+  - /data/fwbuild-volumes/2.18.0/apps/MCP4725/esp32/build_contexts/build_ctx_145777511/deps/arduino-wire/src
   version: "1.0"
 init_deps:
 - freertos
